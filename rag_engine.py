@@ -16,7 +16,7 @@ from groq import Groq
 
 # Document processing
 from pypdf import PdfReader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
 # ── System prompt tuned for BPSC / Pakistan context ──────────────
